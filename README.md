@@ -255,29 +255,29 @@ GET /api/books?filter=FANTASY&sortBy=createdAt&sort=desc&limit=5
 🗂️ Project Structure
 LIBRARY-MANAGEMENT-API/
 ├── src/
-│ ├── config/
-│ │ └── index.ts # Environment configuration
-│ ├── modules/
-│ │ ├── book/
-│ │ │ ├── book.controller.ts # Book API controllers
-│ │ │ ├── book.interface.ts # Book type definitions
-│ │ │ ├── book.model.ts # Book Mongoose model
-│ │ │ └── book.routes.ts # Book routes
-│ │ └── borrow/
-│ │ ├── borrow.controller.ts # Borrow API controllers
-│ │ ├── borrow.interface.ts # Borrow type definitions
-│ │ ├── borrow.model.ts # Borrow Mongoose model
-│ │ └── borrow.routes.ts # Borrow routes
-│ ├── routes/
-│ │ └── index.ts # Main route configuration
-│ └── server.ts # Express server setup
-├── .env # Environment variables
-├── .gitignore # Git ignore rules
-├── package.json # Project dependencies & scripts
-├── package-lock.json # Dependency lock file
-├── README.md # Project documentation
-├── tsconfig.json # TypeScript configuration
-└── vercel.json # Vercel deployment configuration
+│   ├── config/
+│   │   └── index.ts                  # Environment configuration
+│   ├── modules/
+│   │   ├── book/
+│   │   │   ├── book.controller.ts    # Book API controllers
+│   │   │   ├── book.interface.ts     # Book type definitions
+│   │   │   ├── book.model.ts         # Book Mongoose model
+│   │   │   └── book.routes.ts        # Book routes
+│   │   └── borrow/
+│   │       ├── borrow.controller.ts  # Borrow API controllers
+│   │       ├── borrow.interface.ts   # Borrow type definitions
+│   │       ├── borrow.model.ts       # Borrow Mongoose model
+│   │       └── borrow.routes.ts      # Borrow routes
+│   ├── routes/
+│   │   └── index.ts                  # Main route configuration
+│   └── server.ts                     # Express server setup
+├── .env                              # Environment variables
+├── .gitignore                        # Git ignore rules
+├── package.json                      # Project dependencies & scripts
+├── package-lock.json                 # Dependency lock file
+├── README.md                         # Project documentation
+├── tsconfig.json                     # TypeScript configuration
+└── vercel.json                       # Vercel deployment configuration
 
 ## 🎯 Key Features Implementation
 
