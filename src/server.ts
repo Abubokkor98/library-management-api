@@ -8,8 +8,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
- app.use(routes);
-
+app.use(routes);
 
 app.listen(config.port, () => {
   console.log(` server is running on port ${config.port}`);
@@ -18,7 +17,7 @@ app.listen(config.port, () => {
 app.get("/", (req: Request, res: Response) => {
   res.send({
     success: true,
-    message: "BookNest is Running",
+    message: "library-management-api server is Running",
   });
 });
 
