@@ -373,10 +373,6 @@ curl -X POST https://library-management-api-cyan.vercel.app/api/borrow \
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👨‍💻 Author
 
 **Your Name**
